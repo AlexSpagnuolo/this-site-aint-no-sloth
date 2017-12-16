@@ -1,16 +1,33 @@
 html {
-  background-image: url(../images/sloth-bg.svg);
+  background-image: url("../images/sloth-bg.svg");
   background-size: 48px;
+  background-color: #bea586;
 }
 
 h1 {
   font-family: Georgia, serif;
   color: #fff;
-  text-shadow: .1em .1em .3em rgba(0, 0, 0, .6);
+  text-shadow: .07em .07em .07em rgba(0, 0, 0, .8);
 }
 
-p {
+.sloth-eating {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(28, 14, 0, .8));
+  background-size: cover;
+  margin-top: .9rem;
+}
+
+.border {
+  border-top: 2px solid rgba(28, 14, 0, .5);
+  border-bottom: 2px solid rgba(28, 14, 0, .5);
+}
+
+.line {
+  line-height: 110%;
+}
+
+p, a {
   font-family: Verdana, sans-serif;
+  color: #000;
 }
 
 main {
