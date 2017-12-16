@@ -1,3 +1,8 @@
+html {
+  background-image: url(../images/sloth-bg.svg);
+  background-size: 48px;
+}
+
 h1 {
   font-family: Georgia, serif;
   color: #fff;
@@ -6,4 +11,8 @@ h1 {
 
 p {
   font-family: Verdana, sans-serif;
+}
+
+main {
+  background-color: #fff;
 }
